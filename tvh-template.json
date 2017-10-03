@@ -1,0 +1,48 @@
+{
+  "template" : "tvh",
+  "mappings" : {
+    "recordings" : {
+      "properties" : {
+        "fullpath" : {
+          "type" : "text"
+        },
+        "channel" : {
+          "type" : "keyword",
+          "ignore_above": 100
+        },
+        "title" : {
+          "type" : "keyword",
+          "ignore_above": 100
+        },
+        "subtitle" : {
+          "type" : "text"
+        },
+        "episode" : {
+          "type" : "keyword",
+          "ignore_above": 50
+        },
+        "description" : {
+          "type" : "text"
+        },
+        "errormsg" : {
+          "type" : "text"
+        },
+        "start" : {
+          "type" : "date"
+        },
+        "end" : {
+          "type" : "date"
+        },
+        "numerrors" : {
+          "type" : "long"
+        },
+        "numdataerrors" : {
+          "type" : "long"
+        },
+        "streams" : {
+          "type" : "text"
+        }
+      }
+    }
+  }
+}

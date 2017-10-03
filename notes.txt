@@ -1,0 +1,12 @@
+%f - full path to recording
+%c - channel
+%t - title
+%s - subtitle
+%p - episode
+%d - description
+%e - error message
+%S - start time
+%E - end time
+%r - num of errors
+%R - num data errors
+%i - streams (H264,AC3,etc)
